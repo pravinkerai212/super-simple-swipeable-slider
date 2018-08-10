@@ -1,0 +1,41 @@
+.slider {
+	/* line them up horizontally */
+	display: flex;
+
+	/* allow for scrolling */
+	overflow-x: auto;
+
+	/* make it smooth on iOS */
+	-webkit-overflow-scrolling: touch;
+
+	/* each slide snaps into place */
+	scroll-snap-points-x: repeat(300px);
+	scroll-snap-type: mandatory;
+}
+
+.slider > div {
+	/* make sure the width is honored */
+	flex-shrink: 0;
+	width: 300px;
+	height: 300px;
+}
+
+.slide-1 {
+	background-color: #004471;
+}
+
+.slide-2 {
+	background-color: #452B7F;
+}
+
+.slide-3 {
+	background-color: #88001A;
+}
+
+.slide-4 {
+	background-color: #903000;
+}
+
+.slide-5 {
+	background-color: #005C69;
+}
