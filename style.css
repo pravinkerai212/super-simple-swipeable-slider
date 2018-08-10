@@ -16,8 +16,8 @@
 .slider > div {
 	/* make sure the width is honored */
 	flex-shrink: 0;
-	width: 300px;
-	height: 300px;
+	width: 500px;
+	height: 500px;
 }
 
 .slide-1 {
